@@ -1,0 +1,102 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                <style>
+                    body {
+                        color: #2F2F2F;
+                        font-size: large;
+                        font-family: "Times New Roman", Times, arial, verdana, tahoma, sans-serif, serif;
+                    }
+                    a {
+                        color: #39F;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        color: #00F;
+                        text-decoration: underline;
+                    }
+                    li, p {
+                      line-height: 1.5;
+                    }
+                    ul {
+                        list-style-type: disclosure-closed;
+                    }
+                    iframe {
+                        height: 650px; width: 95%;
+                        border: 1px;
+                        text-align:center; display:block; margin: 0 auto; 
+                    }
+                </style>
+                <title>Interactive Graphs for Felony Counts Sentenced between 2010 and 2020</title>
+            </head>
+            <body>
+                <p>
+                The D.C. Sentencing Commission has prepared the below interactive graphics 
+                using its 2020 <a href="https://scdc.dc.gov/page/sentencing-data">public dataset</a>,
+                which contains all felony counts sentenced in the District of Columbia Superior Court
+                from 2010 to 2020. 
+                <i>Please hover on the graphics below using your mouse to display further details.</i>  
+                Individuals interested in more extensive datasets may send a completed Data Request Form
+                (available at <a href="https://scdc.dc.gov">https://scdc.dc.gov</a>) 
+                via email to <a href="mailto:scdc@dc.gov">scdc@dc.gov</a>.
+                </p>
+                
+                <p>
+                The following figure displays the number of felony sentences imposed by offense category.
+                The number and percentage of counts sentenced are also shown when hovering on the bars.
+                </p>
+                
+    <p>
+    <iframe title="Bar Graph of Number of Felony Sentences by Offense Category" src="2020_n_by_offense_type.html"></iframe>
+    </p>
+    
+                
+                <p>
+                The following figure displays the number of felony sentences imposed by offense category and individual offenses.
+                In each offense category, the top three most frequently sentenced offense are identified.
+                </p>
+                <ul>
+                    <li>To display the top three offenses for a specific offense category only, please use the clickable buttons on the left side of the figure.</li>
+                    <li>To display aggregate information for each offense, hover on the offense with your mouse pointer. Number and percentage of sentences, percentage of prison sentences, and average sentence imposed and to serve are available for display.</li>   
+                </ul>
+                
+    <p>
+    <iframe title="Bar Graph of Most Frequently Sentenced Felony Offenses by Offense Category" src="2020_top_n_offenses.html"></iframe>
+    </p>
+    
+                
+                <p>
+                The following figure displays the proportion of felony sentences by sentence type for each offense category. Note that life and indeterminate sentences are excluded from this figure.
+                The number and percentage of counts sentenced are also shown when hovering on the bars. Average sentence imposed (for incarceration and long split) and probation sentence (for short split and probation) are also shown. 
+                </p>
+                
+    <p>
+    <iframe title="Bar Graph of Felony Sentences by Sentence Type and Offense Category" src="2020_sentence_length_type_by_offense_type.html"></iframe>
+    </p>
+    
+                
+                <p>
+                The following figure displays the overall Guidelines compliance rate (on the left) and a breakdown of this rate by both compliance and offense categories (on the right).
+                </p>
+                <ul>
+                    <li>On the <i>left</i>, the number and percentage of sentences can be displayed by hovering on the figure using your mouse pointer.</li>
+                    <li>On the <i>right</i>, 
+                        <ul>
+                            <li>Offense categories such as Violent and Weapon are displayed at the outermost layer.</li>
+                            <li>Compliance categories can be expanded to view their sub-categories by clicking on them, drilling down finally to the distribution of sentences by offense category for a given compliance sub-category.</li>
+                            <ul>
+                                <li>To zoom out of the sub-categories and view all compliance categories, click on the center of the figure. Clicking on the center multiple times will bring you to the original view.</li>
+                            </ul>
+                            <li>The percentage of sentences in a given compliance sub-category and offense category is shown by hovering on the figure using your mouse pointer.</li>
+                        </ul>
+                </ul>
+                
+    <p>
+    <iframe title="Pie and Sunburst Graphs of Felony Sentences by Guidelines Compliance Categories" src="2020_n_by_compliance_status.html"></iframe>
+    </p>
+    
+            </body>
+            </html>
+        
